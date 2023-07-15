@@ -1,0 +1,52 @@
+﻿3-IRepositoryBase
+4-RepositoryBase
+5-IBookRepository
+6-BookRepository basit bir repomuz oldu
+Ama hala savechanges hiç bir yerde yok onu managerda yazcaz.
+Birçok repomuz olabilir categori vs diye biz bunların hepsine manager üzerinden erişim vercez.
+7-IRepositoryManager
+UnitOfWork pattern kullancaz
+8-RepositoryManager
+Eager Loading:(Şahin yükleme hızlı hemen...)Bir nesneye ihtiyacımız olduğunda o nesneyi ya da
+o nesneyle alakalı herşeyi bir defada yüklemek isteriz.
+Lazy yükleme:(Tembel - geç Yükleme)=>Uygulamada Bir  referans tutarsınız ne zaman ihtiyacınız olursa o zaman o nesneyi üretirsiniz.
+Gereksiz kaynak kullanımından kaçınmış olursunuz.
+**İlgili ayarların hepsini program.cs de yapmamak için ServiceExtension diye class yaptık
+
+Şimdi IBookRepository vs bunlar için register işlemlerini yine extension metotla yapcaz.
+
+9-services katmanı ve IBookService ve Manager yazdım
+10-Service manager yazdık benzerini repo katmanında yapmıştık
+şuan controller da uygulamanın  sadece services katmanı üzerinden çalışmasına izin vercez.Service katmanını API ye yani sunum katmanına bağlicaz
+11Sunum katmanı -presentation- ekledik artık controller sunum katmanında olacak Api katmanında olmayacak(Api bir konfigürasyon projesi olacak)
+AssemblyReference classı yaptık ve bir kütüphane kurulumu yapcaz:
+install-Package Microsoft.AspNetCore.Mvc.Core -ProjectName Presentation  : bir class a conroller olma özelliği kazandırdık
+
+controller klasörü ekleyip api katmanındaki bookscontroller içeriğini oraya aldık.
+Controller ı farklı katmana taşıdık. orada çalışması için program.cs de AddApplicationPart eklemek lazım
+
+12-Drop - Database ile db silindi
+Sonra Add -Migration init -Project Repositories
+dersek Migration üretir. ama biz böyle yapmicaz.
+Design time de bir repository context factory yazcaz
+:
+PM> Add-Migration startPoint DİYEREK migration ı WebApiBtk katmanında oluşturduk. çünkü RepositoryContextFactory de bunu belirttik.
+13.NLOG: Mimariyi daha iyi anlama adına faydalı olacakmış
+Services katmanında ILoggerservice ve Logger manager oluşturduk.
+api katmanında extension metodunu yaptık. instance üretimi için. program.cs de eklemesi yapıldı ve //nlog ayarlaması yapıldıı
+14- Global hata yönetimi: bir handler yazcaz:UseException handler. middleware kullancaz.
+--errordetails classını entities te oluşturduk. şimdi bunu kullanacağımız extension metot yazcaz WebAplication için
+middleware bir istek geldiğinde ilgili isteğin ConfigureExceptionHandler üzerinden geçmesini sağlayacaz.
+yazdığımız ifadeyi yapılandırcaz.
+Şuan her hatada 500 gönderiyor biz önce abstract bir class yapcaz NotFound türündeki hataları yönetecek alt yapı oluşturcaz.
+BookNotFounException (Sealed) yapcazKısaca bir hata türünü özelleştirdik onu da extensionmiddleware de kullanacaz Sonra bu ifadeyi nasıl yakalicaz onu yapalım
+
+15-Automapper:AutoMapper.Extensions.Microsof.Dependency indir. Sonra Program.cs de kolay bir kayıdı var:
+builder.Services.AddAutoMapper(typeof(Program));//reflection ister
+Sonra Profile...Dto ile birlikte Record Type ele alınacak...
+BookManager da Ctor da IMapper enjekte et
+
+16-DOĞRULAMA
+[ApiController] annotation u api mize bir takım davranış özelliği kazandırıyor.(Controller a) örn: http400 404 gibi özellikler.
+Biz bu attributları entities teki dto larda ya da modellerde kullanırsak Solid e aykırı olur Ama bu
+bölümde biz bu kuralı ihlal etcez diğer bölümde düzeltiriz.

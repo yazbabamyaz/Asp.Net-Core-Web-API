@@ -1,0 +1,57 @@
+2023-07-14 14:25:13.1073 Info Message Template Auto Format enabled
+2023-07-14 14:25:13.2569 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 14:25:13.2948 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 16:29:07.7173 Info Message Template Auto Format enabled
+2023-07-14 16:29:07.8575 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 16:29:07.8874 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 16:29:56.2079 Info Message Template Auto Format enabled
+2023-07-14 16:29:56.3083 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 16:29:56.3363 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 16:30:19.8872 Info Message Template Auto Format enabled
+2023-07-14 16:30:20.0529 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 16:30:20.0809 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 16:31:22.6956 Info Message Template Auto Format enabled
+2023-07-14 16:31:22.8389 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 16:31:22.8838 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 16:31:43.5197 Info Message Template Auto Format enabled
+2023-07-14 16:31:43.6173 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 16:31:43.6545 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 16:32:36.4379 Info AppDomain Shutting down. LogFactory closing...
+2023-07-14 16:32:36.4668 Info LogFactory has been closed.
+2023-07-14 16:33:19.0785 Info Message Template Auto Format enabled
+2023-07-14 16:33:19.1336 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 16:33:19.1555 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 19:46:30.0881 Info AppDomain Shutting down. LogFactory closing...
+2023-07-14 19:46:30.2087 Info LogFactory has been closed.
+2023-07-14 19:57:11.9901 Info Message Template Auto Format enabled
+2023-07-14 19:57:12.8167 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 19:57:12.8693 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 20:00:16.7003 Info Message Template Auto Format enabled
+2023-07-14 20:00:16.7925 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 20:00:16.8388 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-14 20:00:56.0680 Info AppDomain Shutting down. LogFactory closing...
+2023-07-14 20:00:56.1092 Info LogFactory has been closed.
+2023-07-14 20:01:12.1314 Info Message Template Auto Format enabled
+2023-07-14 20:01:12.3854 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-14 20:01:12.4499 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-15 10:34:05.5540 Info Message Template Auto Format enabled
+2023-07-15 10:34:05.6470 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-15 10:34:05.6751 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-15 10:41:37.7313 Info Message Template Auto Format enabled
+2023-07-15 10:41:37.9478 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-15 10:41:38.0035 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-15 10:46:10.1514 Info Message Template Auto Format enabled
+2023-07-15 10:46:10.2902 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-15 10:46:10.3480 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-15 10:50:42.5958 Info Message Template Auto Format enabled
+2023-07-15 10:50:42.7616 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-15 10:50:42.8171 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-15 11:16:33.7425 Info Message Template Auto Format enabled
+2023-07-15 11:16:33.8820 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-15 11:16:33.9154 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-15 11:19:49.0510 Info Message Template Auto Format enabled
+2023-07-15 11:19:49.1920 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-15 11:19:49.2317 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
+2023-07-15 11:26:55.6846 Info Message Template Auto Format enabled
+2023-07-15 11:26:55.8599 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-15 11:26:55.9202 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yazil\Desktop\Yazılım\MustafaProje\FatihCakirogluUdemy\WebApiBtk\WebApiBtk\nlog.config
